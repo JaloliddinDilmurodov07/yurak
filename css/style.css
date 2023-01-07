@@ -1,0 +1,86 @@
+*,*:before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(#3b0202,#ff0000);
+}
+.ism{
+    color: #3b0202;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 125px;
+    transform: rotate(316deg);
+    -webkit-transform: rotate(316deg);
+    -moz-transform: rotate(316deg);
+    -ms-transform: rotate(316deg);
+    -o-transform: rotate(316deg);
+  
+}
+.audio{
+width: 50px;
+height: 50px;
+margin-right: 50px;
+margin-top: 470px;
+}
+.yurak
+{
+ position: relative;
+ width: 125px;
+ height: 200px;
+ margin: auto;
+ background:#e80202;
+ transform: rotate(45deg);
+ border-radius: 100px 100px 7px 0;
+ animation:animate 1s linear infinite ;
+
+}
+@keyframes animate
+{
+0%
+{ 
+    transform: rotate(45deg) scale(1);
+}
+40%
+{
+    transform: rotate(45deg) scale(0.8);
+
+}
+60%
+{
+     transform: rotate(45deg) scale(1.2);
+ 
+}
+80%
+{
+    transform: rotate(45deg) scale(1.3);
+
+}
+100%
+{
+     transform: rotate(45deg) scale(1);
+}
+}
+
+
+.yurak:before{
+ content: '';
+ position: absolute;
+ top: 19%;
+ left: -30%;
+ width: 100%;
+ height: 100%;
+ background:#e80202;
+ transform:rotate(90deg) ;
+ border-radius:0  7px 100px 100px ;
+
+}
+
